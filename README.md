@@ -57,7 +57,7 @@ The mathematical models track how targeted therapies shift a patient along the r
 
 ---
 
-## ⚙️ Environment Setup & Dependency Installation
+## Environment Setup & Dependency Installation
 
 The core computational simulation engine is engineered using native, highly optimized Python standard libraries (`math`) to achieve zero runtime overhead, enabling bare-metal compilation on low-power medical microcontrollers and telemetry hardware. 
 
@@ -92,7 +92,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 Quality Assurance & Test Verification Audits
+## Quality Assurance & Test Verification Audits
 
 The platform enforces strict mathematical verification loops to validate forward polynomial scaling, instantaneous derivative tracking, and Newton-Raphson loop convergence tolerances before code compilation.
 
