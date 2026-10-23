@@ -1,0 +1,19 @@
+# ==============================================================================
+# Computational Physiology Engine Deployment & Quality Assurance Manifest
+# ==============================================================================
+
+# Core Runtime Matrix
+# ------------------------------------------------------------------------------
+# NOTE: The core 'hemo_models.py' engine utilizes pure, native standard library 
+# components to maintain zero third-party dependencies for microcontroller compilation.
+
+# Automated Test Suite & Quality Infrastructure
+# ------------------------------------------------------------------------------
+pytest>=8.0.0             # Primary unit testing framework and test discovery
+pytest-cov>=4.1.0         # Structural code coverage monitoring and metric analysis
+
+# Static Code Analysis & Verification Audits
+# ------------------------------------------------------------------------------
+black>=24.0.0             # Non-deterministic code formatting normalization
+flake8>=7.0.0             # PEP 8 regulatory layout compliance validation
+mypy>=1.8.0               # Strict static type checking and data stream validation
