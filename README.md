@@ -57,6 +57,70 @@ The mathematical models track how targeted therapies shift a patient along the r
 
 ---
 
+## ⚙️ Environment Setup & Dependency Installation
+
+The core computational simulation engine is engineered using native, highly optimized Python standard libraries (`math`) to achieve zero runtime overhead, enabling bare-metal compilation on low-power medical microcontrollers and telemetry hardware. 
+
+To configure your local environment for development, quality assurance testing, and static analysis, deploy the environment manifest via standard `pip` packaging utilities.
+
+### 1. Prerequisite Initialization
+
+It is recommended to execute the codebase within an isolated, localized virtual environment (`venv`) to preserve dependency integrity:
+
+```bash
+# Initialize the virtual environment structure
+python3 -m venv venv
+
+# Activate the local environment matrix (POSIX / Linux / macOS)
+source venv/bin/activate
+
+# Alternative activation matrix (Windows PowerShell)
+# .\venv\Scripts\Activate.ps1
+```
+
+### 2. Dependency Deployment
+
+Once active, pull the standardized test, coverage, and regulatory compliance utilities directly into your development workspace:
+
+```bash
+# Upgrade the core package installer
+pip install --upgrade pip
+
+# Deploy the complete QA and formatting matrix
+pip install -r requirements.txt
+```
+
+---
+
+## 🧪 Quality Assurance & Test Verification Audits
+
+The platform enforces strict mathematical verification loops to validate forward polynomial scaling, instantaneous derivative tracking, and Newton-Raphson loop convergence tolerances before code compilation.
+
+### 1. Automated Test Suite Execution
+Execute the automated validation checks across all clinical modules using the structural test runner:
+
+```bash
+pytest -v
+```
+
+### 2. Test Coverage & Metric Tracking
+To generate an audit log mapping code execution paths and verifying 100% path coverage across the telemetry processing files, run the coverage tool:
+
+```bash
+pytest --cov=hemo_models --cov-report=term-missing
+```
+
+### 3. Static Type Verification & Compliance Checks
+Audit your code streams against strict type checking and layout formatting regulations before finalizing your production build:
+
+```bash
+# Validate strict variable type assignment
+mypy hemo_models.py
+
+# Enforce uniform PEP 8 code formatting
+black --check hemo_models.py
+```
+
 ## Reference Foundations
 
 The mathematical and biological paradigms established in this work are grounded in trusted official frameworks:
